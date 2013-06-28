@@ -36,6 +36,5 @@
         <item name="android:textColor">#99ffffff</item>
     </style>
     <style name="v5_no_round_activity_theme" parent="@*android:style/Theme.NoTitleBar.Fullscreen">
-        <item name="miui:v5_no_rounded_corners">true</item>
     </style>
 </resources>
