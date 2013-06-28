@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/popup_right_menu_option_listview_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/popup_right_menu_option_listview_item_textview_font_size" android:textColor="@color/vp_white" android:gravity="center_vertical" android:id="@id/sub_option_menu_listview_item_textview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/popup_right_menu_option_listview_item_textview_margin_left" />
+</LinearLayout>

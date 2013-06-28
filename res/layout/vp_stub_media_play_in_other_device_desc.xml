@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/vp_background_black" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/play_in_other_device_imageview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/airkan_background_duokan_imageview_margin_top" android:src="@drawable/vp_airkan_dktv_background" android:layout_centerHorizontal="true" />
+        <TextView android:layout_gravity="center_horizontal" android:id="@id/play_in_other_device_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/airkan_video_playing_in" android:layout_below="@id/play_in_other_device_imageview" android:layout_centerHorizontal="true" style="@style/airkan_background_description_textview_style" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/airkan_control_device_des" android:layout_below="@id/play_in_other_device_textview" android:layout_centerHorizontal="true" style="@style/airkan_background_description_textview_style" />
+    </RelativeLayout>
+</FrameLayout>

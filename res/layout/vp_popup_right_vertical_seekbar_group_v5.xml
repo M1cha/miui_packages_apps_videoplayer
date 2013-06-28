@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/progress_textview_container" android:visibility="visible" android:layout_width="50.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/popup_right_vertical_seekbar_group_progress_text_container_margin_left_v5" android:layout_marginRight="0.0dip">
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="#b2000000" android:gravity="center" android:layout_gravity="bottom" android:id="@id/progress_textview" android:background="@drawable/vp_tips_right_v5" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ImageView android:id="@id/content_imageview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/popup_volume_imageview_margin_left_v5" android:layout_marginRight="@dimen/popup_volume_imageview_margin_right_v5" android:src="@drawable/vp_adjust_volume" android:layout_toRightOf="@id/progress_textview_container" />
+    <SeekBar android:id="@id/seek_bar" android:paddingLeft="@dimen/vertical_seekbar_padding_left_v5" android:paddingRight="@dimen/vertical_seekbar_padding_right_v5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/popup_volume_seekbar_margin_left_v5" android:layout_marginRight="@dimen/popup_volume_seekbar_margin_right_v5" android:maxHeight="@dimen/vertical_seekbar_width_v5" android:max="100" android:progressDrawable="@drawable/vp_vertical_progressbar_v5" android:minHeight="@dimen/vertical_seekbar_width_v5" android:thumb="@drawable/vp_vertical_progressbar_thumb_v5" android:thumbOffset="@dimen/vertical_seekbar_thumb_offset_v5" />
+</RelativeLayout>

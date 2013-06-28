@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="low_translucent">#99000000</color>
+    <color name="full_translucent">#00000000</color>
+    <color name="vp_white">#ffffffff</color>
+    <color name="vp_lightblue">#ff6699ff</color>
+    <color name="vp_black">#ff000000</color>
+    <color name="option_menu_background">#ff282828</color>
+    <color name="option_menu_list_view_divider">#ff484848</color>
+    <color name="line_stroke_color">#26ffffff</color>
+    <color name="control_list_view_divider">#ff484848</color>
+    <color name="listview_item_selected_color">#ffff7e00</color>
+    <color name="v5_airkan_devices_selected_color">#ffff6100</color>
+    <color name="v5_listview_item_textview_color">#ccffffff</color>
+    <color name="option_menu_list_view_divider_v5">#19ffffff</color>
+    <color name="airkan_devices_selection_list_view_divider_v5">#21ffffff</color>
+    <color name="option_menu_listview_textview_text_color_v5">#b2000000</color>
+    <color name="listview_item_selected_color_v5">#ffff6100</color>
+    <color name="about_app_name_shadow_color">#2b000000</color>
+    <color name="about_shadow_color">#45000000</color>
+</resources>

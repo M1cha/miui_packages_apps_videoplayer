@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/content_imageview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/popup_brightness_imageview_left_margin_v5" android:src="@drawable/vp_adjust_brightness" />
+    <SeekBar android:id="@id/seek_bar" android:paddingLeft="@dimen/vertical_seekbar_padding_left_v5" android:paddingRight="@dimen/vertical_seekbar_padding_right_v5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxHeight="@dimen/vertical_seekbar_width_v5" android:max="100" android:progressDrawable="@drawable/vp_vertical_progressbar_v5" android:minHeight="@dimen/vertical_seekbar_width_v5" android:thumb="@drawable/vp_vertical_progressbar_thumb_v5" android:thumbOffset="@dimen/vertical_seekbar_thumb_offset_v5" />
+    <LinearLayout android:id="@id/progress_textview_container" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/content_imageview">
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="#b2000000" android:gravity="center" android:layout_gravity="bottom" android:id="@id/progress_textview" android:background="@drawable/vp_tips_left_v5" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

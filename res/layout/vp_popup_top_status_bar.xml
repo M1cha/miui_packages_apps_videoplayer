@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/top_back_img" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/vp_back_button_imageview" />
+    <TextView android:textSize="@dimen/popup_top_status_media_name_textview_font_size" android:id="@id/top_info_media_name_txt" android:layout_width="@dimen/popup_top_status_media_name_textview_length" android:layout_height="wrap_content" android:singleLine="true" android:layout_toRightOf="@id/top_back_img" android:layout_centerVertical="true" style="@style/media_top_info_textview_style" />
+    <ImageView android:id="@id/top_info_bettery_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/top_info_time_txt" />
+    <TextView android:textSize="@dimen/popup_top_status_time_textview_font_size" android:id="@id/top_info_time_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/popup_top_status_time_textview_margin_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/media_top_info_textview_style" />
+</RelativeLayout>

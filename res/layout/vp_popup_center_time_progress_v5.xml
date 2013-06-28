@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/progress_time_left_imageview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/vp_arrow_left_v5" />
+    <TextView android:textSize="@dimen/popup_center_time_progress_textview_font_size_v5" android:textStyle="bold" android:textColor="#ccffffff" android:gravity="center" android:id="@id/progress_time_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:singleLine="true" android:layout_toRightOf="@id/progress_time_left_imageview" />
+    <ImageView android:id="@id/progress_time_imageview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/vp_arrow_right_v5" android:layout_toRightOf="@id/progress_time_textview" />
+</RelativeLayout>

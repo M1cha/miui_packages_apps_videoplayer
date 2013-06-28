@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:background="@drawable/vp_background" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:background="@drawable/vp_background_grid_full" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:id="@id/loading_progressbar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="false" android:indeterminateDrawable="@drawable/vp_loading_progress" android:indeterminateDuration="1800" android:indeterminateBehavior="repeat" android:layout_centerInParent="true" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/loading_video_netplay_label" android:layout_below="@id/loading_progressbar" android:layout_centerHorizontal="true" style="@style/loading_video_for_netplay_textview_style" />
+    </RelativeLayout>
+    <include android:layout_gravity="bottom" android:id="@id/loading_video_bottom_progressbar_group" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/vp_popup_bottom_progress_bar_only" />
+</FrameLayout>
